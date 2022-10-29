@@ -26,7 +26,7 @@ public class HelloWorld
     public static void Main(string[] args)
     {
       int i, j;
-        string[,] resultadooficial = new string[13, 3];
+      string[,] resultadooficial = new string[13, 3];
       resultadooficial[0,0] = "1";
       resultadooficial[0,1] = "0";
       resultadooficial[0,2] = "0";
@@ -78,6 +78,17 @@ public class HelloWorld
       resultadooficial[12,0] = "1";
       resultadooficial[12,1] = "0";
       resultadooficial[12,2] = "0";
+      
+      string resultado = "";
+      for (i = 0; i < 13; i++)
+            {
+                for (j = 0; j < 3; j++)
+                {
+                 resultado =  resultadooficial[i,j] + " "; 
+                }
+                Console.WriteLine(resultado);
+                resultado = "";
+            }
       
         int[,] apostas = new int[13, 3];
         
