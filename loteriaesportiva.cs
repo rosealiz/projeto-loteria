@@ -5,27 +5,7 @@ public class HelloWorld
     public static void Main(string[] args)
     {
       int i, j;
-        int[,] apostas = new int[13, 3];
-        
-        
-            Console.WriteLine("Coloque os elementos 1 por 1 :"); //lembrando que é por linha, depois de completar a linha ele vai para proxoma coluna
-            for (i = 0; i < 13; i++)
-            {
-                for (j = 0; j < 3; j++)
-                {
-                    apostas[i, j] = int.Parse(Console.ReadLine());
-                }
-    }
-}
-}
-//Tentando fazer algo
-using System;
-
-public class HelloWorld
-{
-    public static void Main(string[] args)
-    {
-      int i, j;
+      int pontuacao = 0;
       string[,] resultadooficial = new string[13, 3];
       resultadooficial[0,0] = "1";
       resultadooficial[0,1] = "0";
@@ -79,16 +59,6 @@ public class HelloWorld
       resultadooficial[12,1] = "0";
       resultadooficial[12,2] = "0";
       
-      string resultado = "";
-      for (i = 0; i < 13; i++)
-            {
-                for (j = 0; j < 3; j++)
-                {
-                 resultado =  resultadooficial[i,j] + " "; 
-                }
-                Console.WriteLine(resultado);
-                resultado = "";
-            }
       
         int[,] apostas = new int[13, 3];
         
@@ -100,6 +70,16 @@ public class HelloWorld
                 {
                     apostas[i, j] = int.Parse(Console.ReadLine());
                 }
+            }
+            
+            for (i = 0; i < 13; i++)
+            {
+                for (j = 0; j < 3; j++)
+               
+{
+pontuacao = pontuacao +1;
+}
+                
             }
             
 }
