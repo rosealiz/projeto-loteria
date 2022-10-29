@@ -1,6 +1,6 @@
 using System;
 
-public class HelloWorld
+public class loteriaesportiva
 {
     public static void Main(string[] args)
     {
@@ -81,9 +81,10 @@ public class HelloWorld
                   {
                   pontuacao = pontuacao +1;
                   }
-                Console.WriteLine(pontuacao);
+                
              }
             
             }
+            Console.WriteLine("O numero de acertos e " + pontuacao);
     }
 }
