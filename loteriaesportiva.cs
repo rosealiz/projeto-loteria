@@ -26,7 +26,7 @@ public class HelloWorld
     public static void Main(string[] args)
     {
       int i, j;
-        int[,] resultadooficial = new int[13, 3];
+        string[,] resultadooficial = new string[13, 3];
       resultadooficial[0,0] = "1";
       resultadooficial[0,1] = "0";
       resultadooficial[0,2] = "0";
@@ -46,6 +46,38 @@ public class HelloWorld
       resultadooficial[4,0] = "1";
       resultadooficial[4,1] = "0";
       resultadooficial[4,2] = "0";
+      
+      resultadooficial[5,0] = "1";
+      resultadooficial[5,1] = "0";
+      resultadooficial[5,2] = "0";
+      
+      resultadooficial[6,0] = "0";
+      resultadooficial[6,1] = "0";
+      resultadooficial[6,2] = "1";
+      
+      resultadooficial[7,0] = "0";
+      resultadooficial[7,1] = "1";
+      resultadooficial[7,2] = "0";
+      
+      resultadooficial[8,0] = "0";
+      resultadooficial[8,1] = "0";
+      resultadooficial[8,2] = "1";
+      
+      resultadooficial[9,0] = "1";
+      resultadooficial[9,1] = "0";
+      resultadooficial[9,2] = "0";
+      
+      resultadooficial[10,0] = "0";
+      resultadooficial[10,1] = "0";
+      resultadooficial[10,2] = "1";
+      
+      resultadooficial[11,0] = "0";
+      resultadooficial[11,1] = "0";
+      resultadooficial[11,2] = "1";
+      
+      resultadooficial[12,0] = "1";
+      resultadooficial[12,1] = "0";
+      resultadooficial[12,2] = "0";
       
         int[,] apostas = new int[13, 3];
         
