@@ -76,13 +76,14 @@ public class HelloWorld
             {
                 for (j = 0; j < 3; j++)
                
-{
-    if((apostas[i, j] = 1) && (resultadooficial[i, j] = 1))
-pontuacao = pontuacao +1;
-}
+             {
+              if(apostas[i, j] == 1 && resultadooficial[i, j] == 1)
+                  {
+                  pontuacao = pontuacao +1;
+                  }
                 Console.WriteLine(pontuacao);
-            }
+             }
             
+            }
+    }
 }
-}
-
