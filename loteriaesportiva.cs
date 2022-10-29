@@ -63,7 +63,11 @@ public class loteriaesportiva
         int[,] apostas = new int[13, 3];
         
         
-            Console.WriteLine("Coloque os elementos 1 por 1 :"); //lembrando que é por linha, depois de completar a linha ele vai para proxoma coluna
+            Console.WriteLine("faça suas apostas:");
+            Console.WriteLine("digite em sequencia: 1 0 0 para vitoria do Time 1");
+            Console.WriteLine("digite em sequencia: 0 1 0 para empate");
+            Console.WriteLine("digite em sequencia: 0 0 1 para vitoria do Time 2");
+        
             for (i = 0; i < 13; i++)
             {
                 for (j = 0; j < 3; j++)
